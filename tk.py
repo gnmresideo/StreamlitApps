@@ -3,7 +3,7 @@ import re
 import base64
 #import snowflake.snowpark   
 #from snowflake.snowpark 
-import Session
+#import Session
 
 def encode_file_to_base64(uploaded_file):
     """Convert an uploaded file to a base64 string."""
