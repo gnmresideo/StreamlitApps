@@ -11,7 +11,7 @@ from datetime import date
 
 def get_snowflake_session():
     return Session.builder.configs(st.secrets.snowflake).getOrCreate()
-# Session = get_snowflake_session()
+Session = get_snowflake_session()
 #-> Session:
 #    """Initialize your Snowflake session.
 #       Replace with your actual connection logic."""
