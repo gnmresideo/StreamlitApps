@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 import base64
-#import snowflake.snowpark   
+import snowflake.snowpark   
 #from snowflake.snowpark 
 #import Session
 
