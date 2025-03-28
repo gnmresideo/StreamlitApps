@@ -2,7 +2,7 @@ import streamlit as st
 import re
 import base64
 #import snowflake.snowpark   
-from snowflake.snowpark 
+#from snowflake.snowpark 
 import Session
 
 def encode_file_to_base64(uploaded_file):
