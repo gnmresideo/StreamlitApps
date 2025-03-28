@@ -201,7 +201,7 @@ def main():
 #    session = create_session()
     def get_snowflake_session():
         return Session.builder.configs(st.secrets.snowflake).getOrCreate()
-
+    session = create_session()
     with form_container.form("ticket_form"):
         st.markdown("<div class='stForm'>", unsafe_allow_html=True)
 
