@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import base64
 from datetime import date
-from snowflake.snowpark import Session
+#from snowflake.snowpark import Session
 
 ######################
 # 1) CONFIG & INIT
